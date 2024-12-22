@@ -9,5 +9,7 @@ class Program
 
         Console.Write("Enter the second integer: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
+
+        int xor = num1 ^ num2;
     }
 }
